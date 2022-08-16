@@ -12,10 +12,12 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "firebase": "^9.9.1",
     "firebase-admin": "^11.0.1",
+    "hazelcast-client": "^5.1.0",
     "mongoose": "^6.4.6"
   }
 }

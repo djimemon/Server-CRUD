@@ -2,7 +2,6 @@ const { db } = require("../utils/admin");
 
 exports.users = async (req, res) => {
 
-
     const usersRef = db.collection('users');
     try{
         usersRef.get().then((snapshot) => {
